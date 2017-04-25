@@ -5,6 +5,7 @@ package bean;
  */
 public class RiseCusTotalInfo {
 
+    private String batchno;
     private String ump_mobile_no;
     private String customer_no;
     private String mobile_no;
@@ -73,6 +74,14 @@ public class RiseCusTotalInfo {
     private String six_mon_fina_peak;
     private String twlv_mon_fina_peak;
     private String year_avg_fina_assets;
+
+    public String getBatchno() {
+        return batchno;
+    }
+
+    public void setBatchno(String batchno) {
+        this.batchno = batchno;
+    }
 
     public String getUmp_mobile_no() {
         return ump_mobile_no;
